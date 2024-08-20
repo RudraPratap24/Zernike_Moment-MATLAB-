@@ -1,6 +1,8 @@
+%Making zernike moment function
 function zernike_moments(img, order)
     % Convert the image to double precision
     img = double(img);
+    
     
     % Get the size of the image
     [rows, cols] = size(img);
